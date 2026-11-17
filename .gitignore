@@ -1,0 +1,10 @@
+# Virtuelle Umgebung & Python Cache
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Generierte Daten & lokale Datenbank
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.db
